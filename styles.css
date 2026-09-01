@@ -123,6 +123,10 @@ a {
   aspect-ratio: 2033 / 690;
 }
 
+.hero-crop picture {
+  display: block;
+}
+
 .hero-image {
   display: block;
   width: 100%;
@@ -664,6 +668,32 @@ a {
 
   .section-inner {
     width: min(100% - 28px, 1160px);
+  }
+
+  .hero {
+    padding: 0;
+  }
+
+  .hero-crop {
+    aspect-ratio: 864 / 1821;
+  }
+
+  .hero-image {
+    transform: none;
+  }
+
+  .hero-consult-link {
+    left: 6.5%;
+    top: 85.1%;
+    width: 87%;
+    height: 5.6%;
+  }
+
+  .hero-download-link {
+    left: 6.5%;
+    top: 92%;
+    width: 87%;
+    height: 5.5%;
   }
 
   .intro h1 {

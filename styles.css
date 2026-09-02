@@ -420,6 +420,10 @@ a {
   position: relative;
 }
 
+.cta-panel picture {
+  display: block;
+}
+
 .cta-consult-link {
   left: 26.8%;
   top: 57.1%;
@@ -694,6 +698,28 @@ a {
     top: 92%;
     width: 87%;
     height: 5.5%;
+  }
+
+  .bottom-cta {
+    padding-bottom: 34px;
+  }
+
+  .bottom-cta .section-inner {
+    width: min(100% - 28px, 887px);
+  }
+
+  .cta-consult-link {
+    left: 6.6%;
+    top: 67.6%;
+    width: 86.7%;
+    height: 9.4%;
+  }
+
+  .cta-line-link {
+    left: 6.6%;
+    top: 79.4%;
+    width: 86.7%;
+    height: 8.8%;
   }
 
   .intro h1 {
